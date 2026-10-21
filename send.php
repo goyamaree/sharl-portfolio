@@ -19,7 +19,7 @@ try {
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // tls
     $mail->Username = 'mail_1@pbodavaodelsur.com';
-    $mail->Password = 'It10@2026'; // App Password
+    $mail->Password = 'It'; 
     $mail->setFrom('mail_1@pbodavaodelsur.com', 'SMTP Demo');
     $mail->addAddress('roilokai5@gmail.com');
     $mail->isHTML(true);
